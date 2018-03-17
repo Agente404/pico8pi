@@ -1,3 +1,0 @@
-SUBSYSTEM=="ieee80211", ACTION=="add|change", ATTR{macaddress}=="00:00:00:00:00:00", KERNEL=="phy0", \
-  RUN+="/sbin/iw phy phy0 interface add ap0 type __ap", \
-  RUN+="/bin/ip link set ap0 address 00:00:00:00:00:00"
