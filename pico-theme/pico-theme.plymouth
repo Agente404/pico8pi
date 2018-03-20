@@ -1,0 +1,8 @@
+[Plymouth Theme] 
+Name=Pico-theme
+Description=Pico8pi Splash Screen
+ModuleName=script
+
+[script] 
+ImageDir=/usr/share/plymouth/themes/pico-theme
+ScriptFile=/usr/share/plymouth/themes/pico-theme/pico-theme.script
